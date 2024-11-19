@@ -1,8 +1,8 @@
 ## Prosody-Enhanced Acoustic Pre-training and Acoustic-Disentangled Prosody Adapting for Movie Dubbing
 
-[Result of On V2C-Animation benchmark in Dub 1.0 Setting](#Setting1V2C) \
-[Result of On V2C-Animation benchmark in Dub 2.0 Setting](#Setting2V2C) \
-<!-- [Result of Zero-shot test](#zeroshot) -->
+[Result in Dub 1.0 Setting](#Setting1V2C) \
+[Result in Dub 2.0 Setting](#Setting2V2C) \
+[Result of Zero-shot test](#zeroshot)
 
 ## Abstract
 Movie dubbing describes the process of transforming a script into speech that aligns temporally and emotionally with a given movie clip while exemplifying the speaker’s voice demonstrated in a short reference audio clip. This task demands the model bridge character performances and complicated prosody structures to build a high-quality video-synchronized dubbing track. The limited scale of movie dubbing datasets, along with the background noise inherent in audio data, hinder the acoustic modeling performance of trained models. To address these issues, we propose an acoustic-prosody disentangled two-stage method to achieve high-quality dubbing generation with precise prosody alignment. First, we propose a prosody-enhanced acoustic pre-training to develop robust acoustic modeling capabilities. Then, we freeze the pre-trained acoustic system and design a disentangled framework to model prosodic text features and dubbing style while maintaining acoustic quality. Additionally, we incorporate an in-domain emotion analysis module to reduce the impact of visual domain shifts across different movies, thereby enhancing emotion-prosody alignment. Extensive experiments show that our method performs favorably against the state-of-the-art models on two primary benchmarks. The official demos are available here.
@@ -444,7 +444,7 @@ Reference Audio：
 #### Script: It's not where it's been. It's where it will take you.
 #### Ground truth:
 <video width="320" height="140" controls>
-  <source src="zeroshot\sample1\gt.mp4" type="video/mp4">
+  <source src="Zero-Shot/Sample1/Bossbaby@BossBaby_00_0559_00.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -647,7 +647,7 @@ Reference Audio：
     </td>
     <td>
       <video width="320" height="140" controls>
-        <source src="Zero-Shot/Sample4/s8_Coco@Miguel_00_1103_00.mp4" type="video/mp4">
+        <source src="Zero-Shot/Sample4/s12_Coco@Miguel_00_1103_00.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>

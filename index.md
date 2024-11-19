@@ -1,4 +1,4 @@
-## Prosody-Enhanced Acoustic Pre-training and Disentangled Prosody Adapting for Movie Dubbing
+## Prosody-Enhanced Acoustic Pre-training and Acoustic-Disentangled Prosody Adapting for Movie Dubbing
 
 [Result of On V2C-Animation benchmark in Dub 1.0 Setting](#Setting1V2C) \
 [Result of On V2C-Animation benchmark in Dub 2.0 Setting](#Setting2V2C) \
@@ -274,7 +274,7 @@ Movie dubbing describes the process of transforming a script into speech that al
 
 ### V2C-Animation sample on Dub 2.0
 ### Sample #1
-#### Script: Sentient food? That's impossible.
+#### Script: Your father's out there "entertaining" them.
 Reference Audio：
 
 <audio controls src="Setting2/Sample1/Brave@Elinor_00_0171_00.wav" title="Title"></audio>
@@ -330,7 +330,7 @@ Reference Audio：
 
 
 ### Sample #2
-#### Script: Here's what I heard: "Blah, blah, blah."
+#### Script: My chest hairs are tingling. Something's wrong.
 Reference Audio：
 
 <audio controls src="Setting2/Sample2/Cloudy@Earl_00_0548_00.wav" title="Title"></audio>
@@ -385,7 +385,7 @@ Reference Audio：
 </table>
 
 ### Sample #3
-#### Script: Well, I just saved our lives.
+#### Script: Why did you bring me here?
 <audio controls src="Setting2/Sample3/Moana@Moana_00_0180_00.wav" title="Title"></audio>
 <table border="1">
     <tr>
@@ -436,37 +436,37 @@ Reference Audio：
     </tr>
 </table>
 
-<!-- <a id="zeroshot"></a> -->
+<a id="zeroshot"></a>
 
-<!-- ### Zero-shot sample test
+### Zero-shot sample test
+
 ### Sample #1
-#### Script: How do we know that this isn't some trick?
+#### Script: It's not where it's been. It's where it will take you.
 #### Ground truth:
 <video width="320" height="140" controls>
   <source src="zeroshot\sample1\gt.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video> -->
+</video>
 
-<!-- <video controls src="zeroshot\sample1\gt.mp4" title="Title"></video>
 <table border="1">
   <tr>
     <td>
       <audio controls>
-        <source src="zeroshot\sample1\s4-pwwq7p.wav" type="audio/mpeg">
+        <source src="Zero-Shot/Sample1/s1-prwd7a.wav" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
       <figcaption>Reference Audio From GRID benchmark #1</figcaption>
     </td>
     <td>
       <audio controls>
-        <source src="zeroshot\sample1\s9-bbwz4n.wav" type="audio/mpeg">
+        <source src="Zero-Shot/Sample1/s10-sgwtzp.wav" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
       <figcaption>Reference Audio From GRID benchmark #2</figcaption>
     </td>
     <td>
       <audio controls>
-        <source src="zeroshot\sample1\s15-pwbv7a.wav" type="audio/mpeg">
+        <source src="Zero-Shot/Sample1/s26-pwan7p.wav" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
       <figcaption>Reference Audio From GRID benchmark #3</figcaption>
@@ -475,19 +475,19 @@ Reference Audio：
   <tr>
     <td>
       <video width="320" height="140" controls>
-        <source src="zeroshot\sample1\zeroshot_s4.mp4" type="video/mp4">
+        <source src="Zero-Shot/Sample1/s1_Bossbaby@BossBaby_00_0559_00.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
       <video width="320" height="140" controls>
-        <source src="zeroshot\sample1\zeroshot_s9.mp4" type="video/mp4">
+        <source src="Zero-Shot/Sample1/s10_Bossbaby@BossBaby_00_0559_00.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
       <video width="320" height="140" controls>
-        <source src="zeroshot\sample1\zeroshot_s15.mp4" type="video/mp4">
+        <source src="Zero-Shot/Sample1/s26_Bossbaby@BossBaby_00_0559_00.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
@@ -495,31 +495,31 @@ Reference Audio：
 </table>
 
 ### Sample #2
-#### Script: Now what?
+#### Script: And each one is special.
 #### Ground truth:
 <video width="320" height="140" controls>
-  <source src="zeroshot\sample2\gt.mp4" type="video/mp4">
+  <source src="Zero-Shot/Sample2/Bossbaby@Ted_00_0154_00.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <table border="1">
   <tr>
     <td>
       <audio controls>
-        <source src="zeroshot\sample2\s14-swbn7p.wav" type="audio/mpeg">
+        <source src="Zero-Shot/Sample2/s14-swbn7p.wav" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
       <figcaption>Reference Audio From GRID benchmark #1</figcaption>
     </td>
     <td>
       <audio controls>
-        <source src="zeroshot\sample2\s22-lrbxza.wav" type="audio/mpeg">
+        <source src="Zero-Shot/Sample2/s27-bwwr7a.wav" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
       <figcaption>Reference Audio From GRID benchmark #2</figcaption>
     </td>
     <td>
       <audio controls>
-        <source src="zeroshot\sample2\s30-sgwg7p.wav" type="audio/mpeg">
+        <source src="Zero-Shot/Sample2/s32-pgbh7p.wav" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
       <figcaption>Reference Audio From GRID benchmark #3</figcaption>
@@ -528,19 +528,19 @@ Reference Audio：
   <tr>
     <td>
       <video width="320" height="140" controls>
-        <source src="zeroshot\sample2\s14.mp4" type="video/mp4">
+        <source src="Zero-Shot/Sample2/s14_Bossbaby@Ted_00_0154_00.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
       <video width="320" height="140" controls>
-        <source src="zeroshot\sample2\s22.mp4" type="video/mp4">
+        <source src="Zero-Shot/Sample2/s27_Bossbaby@Ted_00_0154_00.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
       <video width="320" height="140" controls>
-        <source src="zeroshot\sample2\s30.mp4" type="video/mp4">
+        <source src="Zero-Shot/Sample2/s32_Bossbaby@Ted_00_0154_00.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
@@ -548,31 +548,31 @@ Reference Audio：
 </table>
 
 ### Sample #3
-#### Script: It's a lot of responsibility.
+#### Script: We will get out of here
 #### Ground truth:
 <video width="320" height="140" controls>
-  <source src="zeroshot\sample3\gt.mp4" type="video/mp4">
+  <source src="Zero-Shot/Sample3/CloudyII@Brent_00_1095_00.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <table border="1">
   <tr>
     <td>
       <audio controls>
-        <source src="zeroshot\sample3\s2-lgbs7p.wav" type="audio/mpeg">
+        <source src="Zero-Shot/Sample3/s15-pwbv7a.wav" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
       <figcaption>Reference Audio From GRID benchmark #1</figcaption>
     </td>
     <td>
       <audio controls>
-        <source src="zeroshot\sample3\s7-lwwszp.wav" type="audio/mpeg">
+        <source src="Zero-Shot/Sample3/s23-lgad5a.wav" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
       <figcaption>Reference Audio From GRID benchmark #2</figcaption>
     </td>
     <td>
       <audio controls>
-        <source src="zeroshot\sample3\s19-swwn7a.wav" type="audio/mpeg">
+        <source src="Zero-Shot/Sample3/s27-bwwr7a.wav" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
       <figcaption>Reference Audio From GRID benchmark #3</figcaption>
@@ -581,21 +581,75 @@ Reference Audio：
   <tr>
     <td>
       <video width="320" height="140" controls>
-        <source src="zeroshot\sample3\s2.mp4" type="video/mp4">
+        <source src="Zero-Shot/Sample3/s15_CloudyII@Brent_00_1095_00.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
       <video width="320" height="140" controls>
-        <source src="zeroshot\sample3\s7.mp4" type="video/mp4">
+        <source src="Zero-Shot/Sample3/s23_CloudyII@Brent_00_1095_00.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
     <td>
       <video width="320" height="140" controls>
-        <source src="zeroshot\sample3\s19.mp4" type="video/mp4">
+        <source src="Zero-Shot/Sample3/s27_CloudyII@Brent_00_1095_00.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </td>
   </tr>
-</table> -->
+</table>
+
+
+### Sample #4
+#### Script: She's the reason you wanted to cross the bridge.
+#### Ground truth:
+<video width="320" height="140" controls>
+  <source src="Zero-Shot/Sample4/Coco@Miguel_00_1103_00.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<table border="1">
+  <tr>
+    <td>
+      <audio controls>
+        <source src="Zero-Shot/Sample4/s6-sbwn8a.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <figcaption>Reference Audio From GRID benchmark #1</figcaption>
+    </td>
+    <td>
+      <audio controls>
+        <source src="Zero-Shot/Sample4/s8-swih2a.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <figcaption>Reference Audio From GRID benchmark #2</figcaption>
+    </td>
+    <td>
+      <audio controls>
+        <source src="Zero-Shot/Sample4/s12-swwu7p.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <figcaption>Reference Audio From GRID benchmark #3</figcaption>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video width="320" height="140" controls>
+        <source src="Zero-Shot/Sample4/s6_Coco@Miguel_00_1103_00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video width="320" height="140" controls>
+        <source src="Zero-Shot/Sample4/s8_Coco@Miguel_00_1103_00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+    <td>
+      <video width="320" height="140" controls>
+        <source src="Zero-Shot/Sample4/s8_Coco@Miguel_00_1103_00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </td>
+  </tr>
+</table>
